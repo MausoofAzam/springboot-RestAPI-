@@ -12,8 +12,7 @@ public class SBTRestApiApplication {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(SBTRestApiApplication.class, args);
-		
-		System.out.println("Rest Api is Running fine");
+		log.info("Rest Api is Running fine");
 	}
 
 }
